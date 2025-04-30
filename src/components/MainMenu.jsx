@@ -109,7 +109,7 @@ function MainMenu({ onSelectList }) {
             fontWeight: "500",
           }}
         >
-          + Nueva Lista
+          + Nueva Propiedad
         </Button>
       </div>
 
