@@ -24,11 +24,11 @@ function NewPropertyModal() {
     <Modal open={openPropertyModal} onClose={() => setOpenPropertyModal(false)}>
       <Box className="bg-white p-6 rounded-xl shadow-xl w-11/12 sm:w-[400px] mx-auto mt-24 outline-none">
         <h2 className="text-xl font-semibold text-slate-800 mb-4">
-          Nueva Lista
+          Nueva Propiedad
         </h2>
 
         <TextField
-          label="Nombre de la lista"
+          label="Nombre de la Propiedad"
           value={propertyName}
           onChange={(e) => setPropertyName(e.target.value)}
           fullWidth
@@ -37,7 +37,7 @@ function NewPropertyModal() {
         />
 
         <TextField
-          label="Descripción"
+          label="Descripción de la Propiedad"
           value={propertyDescription}
           onChange={(e) => setPropertyDescription(e.target.value)}
           fullWidth
